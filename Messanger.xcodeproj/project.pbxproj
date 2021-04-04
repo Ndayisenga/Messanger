@@ -22,6 +22,7 @@
 		C2B4B3282610A89100527415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B4B3272610A89100527415 /* Assets.xcassets */; };
 		C2B4B32B2610A89100527415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B4B3292610A89100527415 /* LaunchScreen.storyboard */; };
 		C2B5D0EE26147AF600B2F1C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5D0ED26147AF600B2F1C3 /* Extensions.swift */; };
+		C2BF4FF1261A3BBC0081F241 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BF4FF0261A3BBC0081F241 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		C2B4B32A2610A89100527415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2B4B32C2610A89100527415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2B5D0ED26147AF600B2F1C3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C2BF4FF0261A3BBC0081F241 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				C2B4B31E2610A89000527415 /* AppDelegate.swift */,
 				C2B4B3202610A89000527415 /* SceneDelegate.swift */,
 				C2B5D0ED26147AF600B2F1C3 /* Extensions.swift */,
+				C2BF4FF0261A3BBC0081F241 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2363C2F2610DAA700C7FD44 /* LoginViewController.swift in Sources */,
+				C2BF4FF1261A3BBC0081F241 /* DatabaseManager.swift in Sources */,
 				C2363C322610DB2E00C7FD44 /* RegisterViewController.swift in Sources */,
 				C2363C3F2610DC0900C7FD44 /* NewConversationViewController.swift in Sources */,
 				C2B4B3232610A89000527415 /* ConversationsViewController.swift in Sources */,
