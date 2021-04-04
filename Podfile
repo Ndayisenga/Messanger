@@ -5,8 +5,8 @@ target 'Messanger' do
   
   use_frameworks!
 
-  Pod 'Firebase/Core'
-  Pod 'Firebase/Auth'
-  Pod 'Firebase/Database'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
 end
