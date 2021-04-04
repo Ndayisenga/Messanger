@@ -2,9 +2,11 @@
 # platform :ios, '9.0'
 
 target 'Messanger' do
-  # Comment the next line if you don't want to use dynamic frameworks
+  
   use_frameworks!
 
-  # Pods for Messanger
+  Pod 'Firebase/Core'
+  Pod 'Firebase/Auth'
+  Pod 'Firebase/Database'
 
 end
